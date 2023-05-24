@@ -1,0 +1,57 @@
+/* Apply Facebook-themed styles to the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #3b5998, #4267B2);
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #4267B2;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #84983b;
+  }
+
+  .center {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
