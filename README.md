@@ -9,4 +9,7 @@ The cloud platform hosting the app is AWS. Hence , only AWS technologies were us
 2. Details on the form pass through AWS API Gateway to AWS Lambda.
 3. AWS Lambda handles the email service and database insertions upon a successful registration.
 4. AWS Lambda sends an email notification to the users email when registration is successful .
-5. AWS Lambda sends all user entries into dynamodb
+5. AWS Lambda sends all user entries into dynamodb. 
+
+# Technologies Used
+1. 
