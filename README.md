@@ -48,8 +48,14 @@ To ensure the security of the app and data, the following measures can be implem
 
 ![3D0A3D78-DE5B-4F74-B409-27E49E7BCD9E_1_105_c](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/fb89fa5a-409c-4099-adf2-f2ac6a4a175a)
 
-4. Check email for confirmation message . only works for verified email since AWS SES is still in a sandbox envirionment
+4. Check email for confirmation message (only works for verified email since AWS SES is still in a sandbox envirionment)
+
+![1163EF04-BDAA-47D4-B318-3AF2D0DBF793](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/73baf43c-3fad-4844-aa85-c540094dad26)
+
 5. Sign in as admin. Link is below the sign up form
+
+![62CB0DFE-1A2E-4708-BAD9-BC29FEDCD6E5_1_105_c](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/791d76ac-a338-48a6-be4e-2582b693aeb3)
+
 6. Username: kofi Password: 1234.
 7. Access the dashboard. 
 
