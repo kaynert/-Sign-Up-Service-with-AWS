@@ -3,7 +3,7 @@ This project is the final project for the Azubi AWS cloud training program. This
 
 # The Architecture
 The cloud platform hosting the app is AWS. Hence , only AWS technologies were used for the app . The architecture used for the app is meant to be very affordable for the client . The architecture is as follows:
-![finalarchitecture review](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/c5a35f11-7a1d-4cdb-87f6-bb138ceca18a)
+![image](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/cc8bf51d-9578-4362-a38e-b6d20e5255d8)
 
 1. User enters details on the form.
 2. Details on the form pass through AWS API Gateway to AWS Lambda.
