@@ -32,14 +32,11 @@ To ensure the security of the app and data, the following measures can be implem
 4. Monitoring and Logging: Enable CloudWatch logs and metrics to monitor and detect any unauthorized access attempts or suspicious activity.
 
 # Project Timeline
- Week 1: Requirement gathering and architecture design.  
- Week 2: Setup and configuration of AWS services (DynamoDB, SES, CloudWatch).  
- Week 3: Development of the web app and Lambda functions for adding new records and sending notifications.  
- Week 4: Integration testing and security enhancements (authentication, encryption, logging).  
- Week 5: Performance testing and optimization.  
- Week 6: Deployment to production environment and final testing.  
- Week 7: Monitoring and fine-tuning based on real-world usage.  
- Week 8: Documentation and presentation preparation for Mr. Whyte to present to the CEO.  
+ ### Week 1: Requirement gathering and architecture design, Setup and configuration of AWS services (DynamoDB, SES, CloudWatch).  
+ ### Week 2: Development of the web app and Lambda functions for adding new records and sending notifications, Integration testing and security enhancements (authentication, encryption, logging).  
+ ### Week 3: Performance testing and optimization, Deployment to production environment and final testing.  
+ ### Week 4: Monitoring and fine-tuning based on real-world usage, Documentation and presentation preparation for Mr. Whyte to present to the CEO.  
+ 
 
 # Running the app with Docker
 1. Pull image from docker hub : docker pull kofihervie/finalapp
