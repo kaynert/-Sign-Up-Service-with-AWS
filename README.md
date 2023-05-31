@@ -2,7 +2,7 @@
 This project is the final project for the Azubi AWS cloud training program. This project is about creating a user sign up service with AWS. It includes an admin sign in page and admin dashboard.
 
 # The Architecture
-The cloud platform hosting the app is AWS. Hence , only AWS technologies were used for the app . The architecture used for the app is meant to be very affordable for the client .However, we also discussed the option of a highly perfromant architecture. The cost-optimized architecture is as follows:
+The cloud platform hosting the app is AWS. Hence , only AWS technologies were used for the app . The architecture used for the app is meant to be very affordable for the client . However, we also discussed the option of a highly perfromance architecture. The cost-optimized architecture is as follows:
 
 ![image](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/cc8bf51d-9578-4362-a38e-b6d20e5255d8)
 
@@ -57,7 +57,32 @@ To ensure the security of the app and data, the following measures can be implem
 ![62CB0DFE-1A2E-4708-BAD9-BC29FEDCD6E5_1_105_c](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/791d76ac-a338-48a6-be4e-2582b693aeb3)
 
 6. Username: kofi Password: 1234.
-7. Access the dashboard. 
+7. Access the dashboard.
+
+![73CDFB0F-41FF-461A-AAA3-2210317102B2](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/f176f18d-56e1-4336-82d4-ce9e7c9c9ef0)
+
+
+# High Perfomance Solution ( 2nd Option )
+## Description
+In this high-performance solution, we utilize an Application Load Balancer to distribute traffic to multiple EC2 instances running the web app. The load balancer ensures scalability and high availability by automatically distributing incoming requests across the instances. Each EC2 instance is responsible for processing user requests and interacting with DynamoDB for data operations. Notifications on app activity can be triggered using SNS. The solution offers high performance by leveraging multiple EC2 instances to handle concurrent user requests.
+
+## Key Components and Justification
+1. Application Load Balancer: The load balancer distributes incoming traffic across multiple EC2 instances, ensuring scalability and high availability. It intelligently routes requests to healthy instances and provides fault tolerance.
+2. EC2 Instances: The EC2 instances host the web app and handle user requests. Multiple instances can be deployed behind the load balancer to handle concurrent requests and improve performance.
+3. DynamoDB: DynamoDB is used as the database for storing app data. It provides low-latency access, high scalability, and automatic data replication for improved performance.
+4. Simple Notification Service (SNS): SNS can be used for sending notifications on app activity.
+5. CloudWatch: CloudWatch is utilized for monitoring the system's performance, collecting logs, and generating metrics.
+
+## Budget:
+The cost of this solution is primarily driven by the usage of EC2 instances and DynamoDB storage. The number and type of EC2 instances, along with the read and write capacity units of DynamoDB, contribute to the cost. The high-performance nature of this solution may result in higher costs, as it requires maintaining and scaling EC2 instances.
+
+
+## Architecture
+![image](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/40385a8d-1466-42e3-9c92-c2658c636102)
+
+
+
+
 
 
 
