@@ -24,24 +24,24 @@ In this cost-optimized solution, we leverage AWS Lambda functions for the web ap
 6. AWS SDK
 7. Docker 
 
-#Security Considerations:
+# Security Considerations:
 To ensure the security of the app and data, the following measures can be implemented:
 1. Authentication and Authorization: Implement user authentication and authorization mechanisms to control access to the web app and its functionalities.
 2. Encryption: Encrypt sensitive data both in transit and at rest using appropriate encryption methods, such as HTTPS for communication and encryption at the DynamoDB level.
 3. Least Privilege Principle: Apply the principle of least privilege to IAM roles and policies associated with Lambda functions, restricting access to only necessary resources.
 4. Monitoring and Logging: Enable CloudWatch logs and metrics to monitor and detect any unauthorized access attempts or suspicious activity.
 
-#Project Timeline
-1. Week 1: Requirement gathering and architecture design.
-2. Week 2: Setup and configuration of AWS services (DynamoDB, SES, CloudWatch).
-3. Week 3: Development of the web app and Lambda functions for adding new records and sending notifications.
-4. Week 4: Integration testing and security enhancements (authentication, encryption, logging).
-5. Week 5: Performance testing and optimization.
-6. Week 6: Deployment to production environment and final testing.
-7. Week 7: Monitoring and fine-tuning based on real-world usage.
-8. Week 8: Documentation and presentation preparation for Mr. Whyte to present to the CEO.
+# Project Timeline
+ Week 1: Requirement gathering and architecture design.  
+ Week 2: Setup and configuration of AWS services (DynamoDB, SES, CloudWatch).  
+ Week 3: Development of the web app and Lambda functions for adding new records and sending notifications.  
+ Week 4: Integration testing and security enhancements (authentication, encryption, logging).  
+ Week 5: Performance testing and optimization.  
+ Week 6: Deployment to production environment and final testing.  
+ Week 7: Monitoring and fine-tuning based on real-world usage.  
+ Week 8: Documentation and presentation preparation for Mr. Whyte to present to the CEO.  
 
-#Running the app with Docker
+# Running the app with Docker
 1. Pull image from docker hub : docker pull kofihervie/finalapp
 2. Run container
 3. Sign up as user
