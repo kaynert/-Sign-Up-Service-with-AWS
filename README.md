@@ -12,4 +12,10 @@ The cloud platform hosting the app is AWS. Hence , only AWS technologies were us
 5. AWS Lambda sends all user entries into dynamodb. 
 
 # Technologies Used
-1. 
+1. Terraform
+2. AWS DynamoDb
+3. AWS SES
+4. AWS API Gateway
+5. AWS Lambda
+6. AWS SDK
+7. Docker 
