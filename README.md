@@ -11,6 +11,9 @@ The cloud platform hosting the app is AWS. Hence , only AWS technologies were us
 4. AWS Lambda sends an email notification to the users email when registration is successful .
 5. AWS Lambda sends all user entries into dynamodb. 
 
+In this cost-optimized solution, we leverage AWS Lambda functions for the web app's functionality. The web app is responsible for handling user requests and interactions. When a user adds a new record, the web app invokes a Lambda function to process the request. The Lambda function interacts with DynamoDB to add the new record and can also trigger notifications using Simple Email Service (SES) based on app activity. The system's performance is optimized by utilizing serverless functions, which scale automatically based on demand.
+
+
 # Technologies Used
 1. Terraform
 2. AWS DynamoDb
