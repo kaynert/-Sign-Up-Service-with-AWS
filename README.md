@@ -42,16 +42,16 @@ To ensure the security of the app and data, the following measures can be implem
 8. Week 8: Documentation and presentation preparation for Mr. Whyte to present to the CEO.
 
 #Running the app with Docker
-1.Pull image from docker hub : docker pull kofihervie/finalapp
+1. Pull image from docker hub : docker pull kofihervie/finalapp
 2. Run container
 3. Sign up as user
 
 ![3D0A3D78-DE5B-4F74-B409-27E49E7BCD9E_1_105_c](https://github.com/kaynert/-Sign-Up-Service-with-AWS/assets/18236391/fb89fa5a-409c-4099-adf2-f2ac6a4a175a)
 
-5. Check email for confirmation message . only works for verified email since AWS SES is still in a sandbox envirionment
-6. Sign in as admin. Link is below the sign up form
-7. Username: kofi Password: 1234.
-8. Access the dashboard. 
+4. Check email for confirmation message . only works for verified email since AWS SES is still in a sandbox envirionment
+5. Sign in as admin. Link is below the sign up form
+6. Username: kofi Password: 1234.
+7. Access the dashboard. 
 
 
 
